@@ -1,6 +1,10 @@
 *.sln
+
 *.ncb
+
 *.suo
+
 *.vcproj
+
 *.user
-/Debug
+Debug/

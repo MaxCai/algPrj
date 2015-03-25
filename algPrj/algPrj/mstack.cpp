@@ -124,7 +124,7 @@ T sStack<T>::getMax()
 /////////////////////////////////////
 /////////////unit test///////////////
 /////////////////////////////////////
-#define STACKTEST
+//#define STACKTEST
 
 #ifdef STACKTEST
 int main(int argc, char **argv)

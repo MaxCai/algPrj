@@ -46,7 +46,7 @@ void maxSubSum(int *a, int n)
 /////////////////////////////////////
 /////////////unit test///////////////
 /////////////////////////////////////
-#define MAXSUBSUMTEST
+//#define MAXSUBSUMTEST
 
 #ifdef MAXSUBSUMTEST
 int main(int argc, char **argv)

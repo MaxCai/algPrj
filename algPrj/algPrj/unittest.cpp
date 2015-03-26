@@ -1,6 +1,7 @@
 
 #include "gtest/gtest.h"
 #include "mstack.cpp"
+#include "binaryTree.cpp"
 
 TEST(STACKTEST, pushOpt)
 {
@@ -10,6 +11,20 @@ TEST(STACKTEST, pushOpt)
 	st.push(-1);
 	EXPECT_EQ(-1, st.getMin());
 	EXPECT_EQ(2, st.getMax());
+}
+
+TEST(BINTREE, OUTPUT)
+{
+	int a[5] = {4,2,1,3,5};
+	int b[5] = {1,2,3,4,5};
+	bintree<int> bt(a, 5);
+	vector<int> lst;
+	bt.output(lst);
+
+	for(int i= 0; i < 5; ++i)
+	{
+		EXPECT_EQ(lst[i], b[i]);
+	}
 }
 
 int main(int argc, char **argv)

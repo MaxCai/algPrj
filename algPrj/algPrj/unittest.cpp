@@ -3,6 +3,9 @@
 #include "mstack.cpp"
 #include "binaryTree.cpp"
 
+extern int calcCowCnt(int years);
+extern int CowCntIter(int years);
+
 TEST(STACKTEST, pushOpt)
 {
 	sStack<int> st;
@@ -25,6 +28,11 @@ TEST(BINTREE, OUTPUT)
 	{
 		EXPECT_EQ(lst[i], b[i]);
 	}
+}
+
+TEST(COWCNT, OUTPUT)
+{
+	EXPECT_EQ(CowCntIter(20), calcCowCnt(20));
 }
 
 int main(int argc, char **argv)

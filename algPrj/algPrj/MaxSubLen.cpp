@@ -52,6 +52,8 @@ void MaxsubLen(int *a, int n)
 
 	printf("\n");
 
+	delete [] LenK;
+	delete [] PreK;
 }
 
 /**********************************

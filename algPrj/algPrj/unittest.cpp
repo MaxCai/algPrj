@@ -5,6 +5,7 @@
 
 extern int calcCowCnt(int years);
 extern int CowCntIter(int years);
+extern void MaxsubLen(int *a, int n);
 
 TEST(STACKTEST, pushOpt)
 {

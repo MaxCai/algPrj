@@ -6,6 +6,7 @@
 extern int calcCowCnt(int years);
 extern int CowCntIter(int years);
 extern void MaxsubLen(int *a, int n);
+extern void getMinKNum(int *a, int n, int k);
 
 TEST(STACKTEST, pushOpt)
 {
@@ -37,7 +38,7 @@ TEST(COWCNT, OUTPUT)
 }
 
 int main(int argc, char **argv)
-{
+{	
 	testing::InitGoogleTest(&argc, argv);
 	RUN_ALL_TESTS();
 	getchar();

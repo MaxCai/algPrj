@@ -9,6 +9,7 @@ extern void MaxsubLen(int *a, int n);
 extern void getMinKNum(int *a, int n, int k);
 extern void sumof2eq(int *a, int n, int sum);
 extern void swapEvenOdd(int *a, int n);
+extern int maxsubSymStr(const char *str);
 
 TEST(STACKTEST, pushOpt)
 {
